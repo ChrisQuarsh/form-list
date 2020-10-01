@@ -6,13 +6,13 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
-import ContactsScreen from "./ContactsScreen";
+import SignupScreen from "./SignupScreen";
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <ContactsScreen />
+        <SignupScreen />
       </View>
     );
   }
